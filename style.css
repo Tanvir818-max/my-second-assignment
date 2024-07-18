@@ -76,5 +76,150 @@
   margin: 0 auto;
   /* border: 2px solid purple; */
   background-color:#181818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 99px; */
+ }
+ .banner-text{
+  height: 580px;
+  width: 520px;
+  /* border: 2px solid white; */
+  /* padding-top: 40px; */
+ }
+ .get-healthy{
+  font-size: 4.875rem;
+  font-weight: 900;
+  color:rgb(255, 255, 255);
+  text-align: left;
+  margin-top: 30px;
+  line-height: 80px;
+  word-spacing: 6px;
+
+  
+ }
+ .fit{
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color:rgb(139, 139, 139);
+  margin-bottom: 50px;
+ }
+ #shape{
+  font-family: 'miama', sans-serif;
+  font-size: 12rem;
+  font-weight: 400;
+ }
+ .join-club{
+  
+ }
+ .club{
+  width: 140px;
+  height: 30px;
+  border-radius: 42px;
+  background-color: rgb(230, 83, 60);
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: center;
+  /* padding: 16px 40px 16px 40px; */
+  color: white;
+  border: 0px;
+  margin-right: 10px;
+
+ }
+ .app{
+  width: 140px;
+  height: 30px;
+  border-radius: 42px;
+  background-color: #181818;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: center;
+  /* padding: 16px 40px 16px 40px; */
+  color: white;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+
+ }
+ .banner-image{
+  height: 580px;
+  width: 520px;
+  /* border: 2px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+ }
+ .video-workout{
+  /* diplay: flex; */
+  /* flex-direction: column; */
+ }
+ .video{
+  width: 206px;
+  height: 96px;
+  border-radius: 12px;
+  border: 1px solid rgb(58, 58, 58);
+  background-color: #FFFFFF, 10%;
+  backdrop-filter: blur(6px);
+  margin-top: 400px;
+  margin-left: -450px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  
+
+ }
+ .ball{
+  width: 40px;
+  height: 40px;
+  background-color: rgb(230, 83, 60);
+  border-radius: 50px 50px 50px 50px;
+  margin: 28px 15px;
+
+ }
+ .visual{
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  margin-top: -70px;
+  margin-left: 30px;
+  letter-spacing: 2px;
+ }
+ .tutorial{
+  color:#FFFFFF;
+  text-align: center;
+  margin-left: 30px;
+  font: 1rem;
+  font-weight: 400;
+  color: rgb(167, 165, 162);
+  letter-spacing: 1.5px;
+ }
+ .workout{
+  width: 206px;
+  height: 96px;
+  border-radius: 12px;
+  border: 1px solid rgb(58, 58, 58);
+  background-color: #FFFFFF, 10%;
+  backdrop-filter: blur(6px);
+  margin-bottom: 200px;
+  margin-left: 90px;
+ }
+ .visual-2{
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: center;
+  color:rgb(255, 255, 255);
+  letter-spacing: 1.5px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+ }
+ .tutorial-2{
+  font-size: 0.82rem;
+  font-weight: 400;
+  text-align: center;
+  color:rgb(186, 186, 186);
+  letter-spacing: 1.5px;
+  line-height: 5px;
  }
 
