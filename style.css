@@ -116,8 +116,8 @@
   
  }
  .club{
-  width: 140px;
-  height: 30px;
+  width: 224px;
+  height: 54px;
   border-radius: 42px;
   background-color: rgb(230, 83, 60);
   font-size: 1.125rem;
@@ -130,8 +130,8 @@
 
  }
  .app{
-  width: 140px;
-  height: 30px;
+  width: 224px;
+  height: 54px;
   border-radius: 42px;
   background-color: #181818;
   font-size: 1.125rem;
@@ -258,7 +258,7 @@
   justify-content: space-evenly;
   align-items: center;
   margin-top: 150px;
-  margin-left: 70px;
+  margin-left: 10px;
   /* margin: 0 auto; */
  }
  .movement, .time, .practice, .weight-loose{
@@ -286,5 +286,67 @@
   font-weight: 400;
   color: #808080;
   text-align: center;
+ }
+ .run-an-extra-mile{
+  max-width: 1440px;
+  height: 550px;
+  /* border: 2px solid palegreen; */
+  /* display: flex; */
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  margin-top: -190px;
+ }
+ .extra-mile{
+  height: 371px;
+  width: 1060px;
+  background-color: #222222;
+  border-radius: 18px;
+  margin: 185px auto;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  /* gap: 50px; */
+  padding-right: 32px;
+  padding-left: 54px;
+ 
+ }
+ .extra-mile-text{
+  /* padding-top: 0px; */
+ }
+ .run{
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  text-align: left;
+  margin-top: -20px;
+  margin-bottom: 30px;
+ }
+ .run-desciption{
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #919191;
+  text-align: left;
+  letter-spacing: 0.3px;
+  margin-bottom: 30px;
+ }
+ .btn-secondary{
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  background-color: #E6533C;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  border: 0px;
+ }
+ .extra-mile-image{
+
+ }
+ .extra-mile-image img{
+  border-radius: 18px;
+  
  }
 
