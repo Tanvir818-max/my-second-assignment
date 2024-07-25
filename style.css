@@ -399,7 +399,7 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  /* margin-top: 35px; */
+  
  }
 
  .bmi-calc{
@@ -409,9 +409,8 @@
   display: flex;
   align-items:center;
   justify-content:center;
-
-  /* margin-top: 70px; */
-  /* padding-top: -100px; */
+  margin-top: 60px;
+  
  }
  .calc-head{
   font-size: 3rem;
@@ -462,8 +461,9 @@
 .tbl{
 font-size: 0.875rem;
 font-weight: 400;
-color: rgb(145, 145, 145);
+color:rgba(255, 255, 255, 0.5);
 text-align: justify;
+line-height: 120%;
 }
 table{
   width: 310px;
@@ -472,7 +472,7 @@ table{
   margin: 0 auto;
 }
 td, th{
-  border: 0.5px solid #393939;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 15px 20px; 
   /* Up down + Right Left */
 }
