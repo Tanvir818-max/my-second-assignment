@@ -94,7 +94,7 @@
   align-items: center;
   justify-content: center;
   /* margin-top: px; */
-  margin-bottom: 35px;
+  margin-top: 50px;
   
 }
 .fitness{
@@ -171,7 +171,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 35px;
+  margin-top: 50px; 
  }
  .video-workout{
   /* diplay: flex; */
