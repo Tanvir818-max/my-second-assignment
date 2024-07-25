@@ -380,20 +380,26 @@
 
  .bmi-calculator{
   max-width: 1440px;
-  height: 700px;
+  height: 800px;
   /* border: 2px solid purple; */
   background-color: #000000;
   margin: 0 auto;
-  margin-top: -35px;
+  /* gap: 88px; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 35px; */
  }
 
  .bmi-calc{
-  max-width: 1440px;
+  width: 100%;
   height: 487px;
   background-color: #222222;
   display: flex;
   align-items:center;
   justify-content:center;
+
   /* margin-top: 70px; */
   /* padding-top: -100px; */
  }
@@ -402,7 +408,9 @@
   font-weight: 900;
   text-align: left;
   color: white;
-  margin-left: 600px;
+  /* margin-left: 00px; */
+  margin-right: 500px;
+  
   /* margin-top: 80px; */
  }
  .calc-details{
@@ -411,15 +419,28 @@
   letter-spacing: 0.3px;
   color: #808080;
   text-align: left;
-  margin-left: 600px;
+  margin-right: 290px;
+  /* margin-left: 300px; */
   line-height: 24px;
+  padding-bottom:  50px;
  }
+
+ .calc-chart{
+  width: 650px;
+  height: 480px;
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+ 
+}
 
 .bmi{
   font-size: 1.75rem;
   font-weight: 900;
   color: white;
-  text-align: center;
+  text-align: left;
+  margin-left: 170px;
   margin-top: 80px;
 }
 .table-head{
@@ -445,15 +466,6 @@ td, th{
   padding: 15px 20px; 
   /* Up down + Right Left */
 }
-.calc-chart{
-  width: 650px;
-  height: 480px;
-  /* border: 2px solid white; */
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  
-}
 
 .your-bmi{
   width: 650px;
@@ -461,7 +473,7 @@ td, th{
   /* border: 2px solid white; */
   display: flex;
   flex-direction: column;
-  /* margin-top: 80px; */
+  
   
 }
 .calculate-bmi{
@@ -469,14 +481,17 @@ td, th{
   font-weight: 900;
   color: white;
   text-align: left;
-  margin-top: 80px;
+  margin: 0 auto;
+  margin-top: 75px;
   margin-left: 20px;
+  line-height: 30px;
 }
 .calculate{
   font-size: 0.875rem;
   font-weight: 400;
   color: #919191;
   text-align: left;
+  margin: 15px;
   letter-spacing: 0.3px;
   line-height: 18px;
   margin-left: 20px;
@@ -485,45 +500,57 @@ td, th{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.activity-facto{
+.activity-factor{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 input{
   width: 282px;
   height: 48px;
-  border-radius: 12px;
+  border-radius: 8px;
   border: 0;
-  gap: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 22px;
+  gap: 12px;
   margin: 10px;
   padding-left: 15px;
-  color: #919191;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 #sex{
   width: 299px;
   height: 50px;
-  border-radius: 12px;
+  border-radius: 8px;
   border: 0;
-  gap: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 22px;
+  gap: 12px;
   margin: 10px;
   margin-left: 10px;
   padding-left: 15px;
   color: #919191;
+  background-color: rgba(255, 255, 255, 0.1);
 } 
 .activity-factor{
-  
+  display: flex;
+  flex-direction: column;
+
 }
 #factor{
   width: 623px;
   height: 50px;
-  border-radius: 12px;
+  border-radius: 8px;
   border: 0;
-  gap: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 22px;
+  gap: 12px;
   margin: 10px;
   margin-left: 10px;  
   padding-left: 15px;
   color: #919191;
-  /* background-color: #222222; */
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .calculate-btn{
   width: 224px;
