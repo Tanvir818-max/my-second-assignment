@@ -18,13 +18,18 @@
 }
 *{
   margin: 0;
+  /* border: 1px solid red; */
+
+}
+body{
+  /* border: 2px dashed greenyellow; */
 }
 
 .banner-container{
   max-width: 1440px;
   height: 730px;
   margin: 0 auto;
-  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  background: linear-gradient(180.00deg, rgba(0,0,0,1), rgba(0,0,0,.7), rgba(0,0,0,.7), rgba(0,0,0,.7), rgba(0,0,0,1) 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,6 +43,7 @@
   display: flex;
   align-items: center;
   justify-content:space-between;
+  gap: 35%;
   
 }
 .service{
@@ -53,6 +59,9 @@
   padding-right: 10px;
   margin-right: 150px;
   /* margin-left: 200px; */
+  }
+  .burger{
+    display: none;
   }
 .btn-primary{
   height:38px;
@@ -80,7 +89,7 @@
   height: 600px;
   display: flex;
   /* border: 2px solid palegoldenrod; */
-  gap: 20px;
+  gap: 75px;
   align-items: center;
   justify-content: space-evenly;
   margin: 0 auto;
@@ -171,7 +180,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px; 
+  margin-top: 50px;
+  /* margin-bottom: 10px;  */
+  position: relative; 
  }
  .video-workout{
   /* diplay: flex; */
@@ -184,14 +195,11 @@
   border: 1px solid rgb(58, 58, 58);
   background-color: #FFFFFF, 10%;
   backdrop-filter: blur(6px);
-  margin-top: 400px;
-  margin-left: -450px;
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
-  
-
- }
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  }
  .ball{
   width: 40px;
   height: 40px;
@@ -225,8 +233,10 @@
   border: 1px solid rgb(58, 58, 58);
   background-color: #FFFFFF, 10%;
   backdrop-filter: blur(6px);
-  margin-bottom: 200px;
-  margin-left: 90px;
+  position: absolute;
+  top: 35%;
+  left: 70%;
+  transform: translate(-20%, -50%);
  }
  .visual-2{
   font-size: 2.5rem;
@@ -246,6 +256,7 @@
   letter-spacing: 1.5px;
   line-height: 5px;
  }
+
 
  .change-your-habit{
   max-width: 1440px;
@@ -281,19 +292,23 @@
  .gallery{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  margin: 0 auto;
   margin-top: 50px;
-  margin-left: 10px;
+  gap: 60px;
+  /* margin-left: 2px; */
   /* margin: 0 auto; */
  }
  .movement, .time, .practice, .weight-loose{
   height: 274px;
-  width: 231px;
+  width: 100%;
   /* border: 2px solid white; */
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding-right: 25px;
   margin: 0 auto;
   gap: 10px;
  }
@@ -311,12 +326,14 @@
   font-weight: 600;
   color: white;
   text-align: center;
+  padding-left: 20px;
  }
  .description-1{
   font-size: 0.875rem;
   font-weight: 400;
   color: #808080;
   text-align: center;
+  padding-left: 20px;
  }
  .run-an-extra-mile{
   max-width: 1440px;
@@ -378,6 +395,8 @@
  .extra-mile-image{
   width: 366px;
   height: 312px;
+  /* object-fit: none; */
+  /* object-position: 66% 33%; */
   border-radius: 18px;
   background-size:cover;
   background-repeat: no-repeat;
@@ -847,6 +866,9 @@ hr{
   text-align: center;
   margin-top: 10px;
 }
+.display{
+  display: none;
+}
 /* background-image: linear-gradient( 86.3deg,  rgba(0,119,182,1) 3.6%, rgba(8,24,68,1) 87.6% ); */
 
 /* background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
@@ -854,127 +876,8 @@ hr{
 /* responsive media query */
 /* small device */
 
-@media screen and (max-width: 576px) {
 
- .name{
-  justify-content: space-between;
- }
-  .service{
-    flex-direction: column;
-    margin-left: 135px;
-  }
-  .fitness{
-    text-align: left;
-    margin-left: 10px;
-  }
-  .banner-container, 
-  .banner-image 
-  {
-    height: 900px;
-    flex-direction: column;
-  
-  }
-  .get-healthy{
-    font-size: 2rem;
-    text-align: justify; 
-    margin-left: 60px; 
-    line-height: 35px; 
-  }
-  #shape{
-    font-size: 4rem;
-  }
-  .fit{
-   text-align: justify;
-   font-size: .8rem;
-   line-break: auto;  
-   margin-left: 60px
-  }
-  .club{
-    margin-left: 60px;
-    margin-top: -10px;
-  }
-  .club, .app, .btn-secondary{
-  width: 150px;
-  height: 54px;
-  border-radius: 42px;
 
-  }
-  .banner-image{
-   margin-top: -305px;
-   margin-right: -20px;
-  }
-  .video{
-    margin-top: -300px;
-    margin-right: -200px;
-    width: 160px;
-    height: 100px;
-    padding-top: 25px;
-   
-  }
-  .ball{
-    width: 25px;
-    height: 25px;
-    margin-left: 5px;
-  }
-  .workout{
-    margin-top: -300px;
-    margin-left: 200px; 
-    width: 160px;
-    height: 70px;
-    padding-bottom: 40px;
-    padding-top: 25px;
-    line-height: 25px;
-    align-items: center;
-  }
-  .change-your-habit{
-    height: 1350px;
-  }
-  .habit{
-    padding-top: 10px;
-  }
-  .gallery{
-    flex-direction: column;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .feature-1, .description-1{
-    margin-top: 10px;
-  }
-  .run-an-extra-mile{
-    margin-bottom: 1920px;
-    flex-direction: column;
-  }
-  .extra-mile{
-    width: 70%;
-    height: 600px;
-    flex-direction: column;
-    margin-top: 150px;
-    border-radius: 12px;
-    padding-bottom: 50px;
-  }
-  .run{
-    margin-top: 20px;
-    font-size: 2rem;
-    font-weight: 800;
-    gap:1px; 
-  }
-  .run-description{
-   margin-top: 5px;
-   gap:1px; 
-  }
-  .btn-secondary{
-   margin-bottom: 5px;
-   gap:1px; 
-  }
- .extra-mile-image{
-  height: 250px;
-  width: 340px;
-  margin-top: 5px;
-  margin-right: 20px;
-
- }
-
-}
 
 
 

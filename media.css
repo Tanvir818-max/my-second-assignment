@@ -1,0 +1,212 @@
+/* for heading & banner container */
+@media screen and (max-width: 576px) {
+
+
+.banner-container{
+  height: 100%;
+  margin: 0 auto;
+  background-color:#1B1B1B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+ .name{
+  gap: 0px;
+  
+}
+.fitness{
+  margin-right: 50px;
+  margin-left: 20px;
+}
+.burger{
+  display: block;
+  color: white;
+  margin-right: 30px;
+}
+.btn-primary{
+  display: none;
+}
+.service{
+  flex-direction: column;
+  border: none;
+  display: none;
+}
+.banner{
+  flex-direction: column;
+  margin-bottom: 250px;
+  
+ 
+}
+.banner-text{
+  width: 100%;
+  font-weight: 900;
+  line-height: 120%;
+  text-align: left;
+  margin-top: -80px;
+  
+}
+.get-healthy{
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: left;
+  line-height: 10%;
+  margin-left: 20px;
+}
+#shape{
+  font-size: 8rem;
+  /* font-weight: 900; */
+  line-height: 120%;
+  text-align: left;
+}
+
+.fit{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.join-club{
+  justify-content: center;
+  gap: 20px;
+  margin-top: -40px;
+  margin-left: 10px;
+
+}
+.club, .app{
+  height:30px;
+  width: 110px;
+  border-radius: 46px;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 22px;
+  
+}
+.app{
+  background-color: #181818;
+
+}
+.banner-image{
+  width: 353px;
+  margin-top: -100px;
+  margin-left: 50px;
+  flex-direction: column;
+  /* margin-bottom: 300px; */
+}  
+.video{
+  width: 155px;
+  height: 72px;
+  margin-top: -150px;
+  margin-right: -100px;
+ 
+
+}
+.ball{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(230, 83, 60);
+  border-radius: 50px 50px 50px 50px;
+  margin: 28px 15px;
+  margin-left: 5px;
+  border: 0px;
+}
+.visual{
+  font-size: 1.15rem;
+  color: white;
+  text-align: center;
+  margin-top: -65px;
+  margin-left: 30px;
+  letter-spacing: 2px;
+}
+.tutorial{
+  color:#FFFFFF;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 5px;
+  font: .75rem;
+  font-weight: 400;
+  color: rgb(167, 165, 162);
+  letter-spacing: 1.5px;
+}
+.workout{
+  width: 155px;
+  height: 72px;
+  margin-top: -120px;
+  margin-left: -30px;
+
+}
+.visual-2{
+  font-size: 1.15rem;
+  color: white;
+  text-align: center;
+  padding-right: 20px;
+  margin-left: 30px;
+  letter-spacing: 2px;
+}
+.tutorial-2{
+  color:#FFFFFF;
+  text-align: center;
+  /* margin-left: 30px; */
+  font: .75rem;
+  font-weight: 400;
+  color: rgb(167, 165, 162);
+  /* letter-spacing: 1.5px; */
+}
+/* banner section end */
+
+/* change your habits start */
+.change-your-habit{
+  height: 100%;
+  background-color: #000000;
+ 
+}
+.habit{
+  font-size: 2rem;
+  font-weight: 900;
+  
+}
+/* .good-habit{ */
+/* line-break: */
+
+.gallery{
+  flex-direction: column;
+}
+/* <!-- change your habbits end --> */
+/* run an extra mile easily start */
+.run-an-extra-mile{
+  height: 100%;
+  max-width: 570px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.extra-mile{
+  width: 65%;
+  height: 531px;
+  flex-direction: column;
+  padding-top: 30px;
+  /* gap: 20px; */
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.extra-mile-text{
+ margin-bottom: 10px;
+}
+.run{
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+.run-desciption{
+  margin-bottom: 10px;
+}
+.btn-secondary{
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.extra-mile-image{
+ width: 100%; 
+ height: 25%;
+ margin-bottom: 20px;
+}
+}
