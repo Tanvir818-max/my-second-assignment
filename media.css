@@ -209,7 +209,7 @@
 }
 .btn-secondary{
   margin-top: 25px;
-  margin-left: 25px;
+  margin-left: 5px;
 }
 .extra-mile-image{
  width: 100%; 
@@ -219,27 +219,119 @@
 /* run an extra mile easily end */
 /* BMI calculator start */
 .bmi-calculator{
-  height: 800px;
+  height: 100%;
 }
 .calc-head{
 font-size: 2rem;
-margin-right: 2px;
+display: flex;
+justify-content: left;
+align-items: center;
 text-align: left;
+margin: 0 auto;
+padding-left: 20px;
+width: 90%;
 
 }
 .calc-details{
- margin-right: 2px;
+margin-right: 2px;
+display: flex;
+justify-content: left;
+align-items: center;
+text-align: left;
+margin: 0 auto;
+padding-left: 2.7rem;
 }
 .bmi-calc{
-  flex-direction: column;
-  width: 100%;
-  padding-top: 30px;
+flex-direction: column;
+width: 100%;
+height: 48.25rem;
+display: flex;
+margin: 0 auto;
+gap: 10px;
 }
 .calc-chart{
-  width: 100%;
+width: 90%;
+display: flex;
+justify-content: left;
+align-items: center;
+text-align: left;
+margin: 0 auto;
+padding-left: 20px;
+gap: 5px;
+}
+.bmi{
+  text-align: left;
+  padding: 5px;
+  width: 85%;
+  margin-right: 13rem;
+}
+.bmi-calc{
+ height: 68.25rem; 
+
+  
 }
 .your-bmi{
-  width: 100%;
+  width: 90%;
+  margin-bottom: 6rem;
+ }
+ .calculate-bmi{
+  width: 90%;
+  margin-top: 50px;
+  margin-left: 2.9rem;
+ }
+ .calculate{
+  width: 90%;
+  margin-left: 2.9rem;
+ }
+table{
+  margin-bottom: -10.625rem;
+  /* padding-right: 10rem; */
+}
+input{
+  width: 10.625rem;
+  height: 3rem;
+  /* width: 95%; */
+}
+#sex{
+  width: 12rem;
+  height: 3.25rem;
+  /* width: 90%; */
+}
+.input-field input{
+  width: 10.625rem;
+  height: 3rem;
+  /* width: 95%; */
+}
+.activity-factor{
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+#factor{
+  width: 26rem;
+  height: 3rem;
+  /* width: 95%; */
+}
+
+.input-your-data{
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+ 
+}
+.input-field{
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.calculate-btn{
+  margin-right: 7rem;
 }
 
 }

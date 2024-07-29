@@ -13,7 +13,7 @@
     .name{
       width: 95%;
       height: 100px;
-      border: 2px solid wheat;
+      /* border: 2px solid wheat; */
       margin: 0 auto;
       justify-content:space-between;
       margin: 0 auto;  
@@ -81,6 +81,132 @@
   /* background-repeat: no-repeat; */
 }
 
+.bmi-calculator{
+  height: 75rem;
+}
+.calc-head{
+  font-size: 3rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto;
+  padding-right: 1.3rem;
+  width: 90%;
+  
+  }
+ .calc-details{
+  margin-right: 2px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  /* margin: 0 auto; */
+  margin-right: 18.75rem;
+    }
+ .bmi-calc{
+  flex-direction: column;
+  width: 100%;
+  height: 57rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+ }
+ .calc-chart{
+  width: 90%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto;
+  padding-left: 20px;
+  gap: 5px;
+  margin-bottom: 12rem;
+  }
+  .bmi{
+    text-align: left;
+    padding: 5px;
+    width: 85%;
+    margin-bottom:;
+    margin-right: 25.8rem;
+  }
+  table{
+    margin-bottom: -17.625rem;
+    margin-left: -2em;
+    /* margin-right: -10rem; */
+  }
+  .your-bmi{
+    width: 90%;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    margin: 0 auto;
+   }
+   .calculate-bmi{
+    margin-left: -0.5rem;
+    line-height: 1rem;
+    margin-top: 8rem;
+   }
+   .calculate{
+    margin-left: -22.5rem;
+    line-height: 1rem;
+   }
+   input{
+    width: 30rem;
+    height: 3rem;
+    /* width: 95%; */
+  }
+  #sex{
+    width: 31rem;
+    height: 3.25rem;
+    /* width: 90%; */
+  }
+  .input-field input{
+    width: 30rem;
+    height: 3rem;
+    /* width: 95%; */
+  }
+  .activity-factor{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 auto;
+    margin-right: 12rem;
+    margin-left: 10rem;
+  }
+  #factor{
+    width: 56rem;
+    height: 3.5rem;
+    /* width: 95%; */
+  }
+  
+  .input-your-data{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 auto;
+    margin-right: 12rem;
+    margin-left: 10rem;
+  }
+  .input-field{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 auto;
+    margin-right: 12rem;
+    margin-left: 10rem;
+  }
+  .calculate-btn{
+    margin-right: 15rem;
+    margin-bottom: 10rem;
+  }
 
 
 
