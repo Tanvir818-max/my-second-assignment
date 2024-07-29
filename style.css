@@ -18,11 +18,11 @@
 }
 *{
   margin: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
 }
 body{
-  border: 2px dashed greenyellow;
+  /* border: 2px dashed greenyellow; */
 }
 
 .banner-container{
