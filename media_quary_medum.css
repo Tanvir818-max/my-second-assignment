@@ -207,7 +207,65 @@
     margin-right: 15rem;
     margin-bottom: 10rem;
   }
+  .calculate-btn{
+    margin-right: 9rem;
+  }
+  .meet-our-team{
+    height: 56.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .meet-our-team h2{
+    /* margin-top: 4rem; */
+  }
+  .p-graph{
+    margin-top: 0.5rem;
+  }
+  .our-team{
+    width: 95%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+  .trainer-card-1, 
+  .trainer-card-2, 
+  .trainer-card-3, 
+  .trainer-card-4, 
+  .trainer-card-5, 
+  .trainer-card-6{
+    width: 15.4375rem;
+    height: 16rem;
+  }
+  .trainer-name, 
+  .trainer-name-one, 
+  .trainer-name-two{
+    font-size: 1rem;
+  }
 
+  .row-1{
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin: 0 auto;
+
+  }
+  .row-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   margin: 0 auto;
+  }
+  .copyright{
+    padding-bottom: 10rem;
+  }
 
 
 

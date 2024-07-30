@@ -263,7 +263,7 @@ gap: 5px;
   text-align: left;
   padding: 5px;
   width: 85%;
-  margin-right: 13rem;
+  margin-right: 16rem;
 }
 .bmi-calc{
  height: 68.25rem; 
@@ -277,11 +277,11 @@ gap: 5px;
  .calculate-bmi{
   width: 90%;
   margin-top: 50px;
-  margin-left: 2.9rem;
+  margin-left: 1.5rem;
  }
  .calculate{
   width: 90%;
-  margin-left: 2.9rem;
+  margin-left: 1.7rem;
  }
 table{
   margin-bottom: -10.625rem;
@@ -310,8 +310,8 @@ input{
   margin: 0 auto;
 }
 #factor{
-  width: 26rem;
-  height: 3rem;
+  width: 25rem;
+  height: 3.25rem;
   /* width: 95%; */
 }
 
@@ -331,7 +331,26 @@ input{
   margin: 0 auto;
 }
 .calculate-btn{
-  margin-right: 7rem;
+  margin-right: 9rem;
+}
+.meet-our-team{
+  height: 100%;
+}
+.meet-our-team h2{
+  margin-top: 4rem;
+}
+.p-graph{
+  margin-top: 0.5rem;
+}
+.our-team{
+  width: 95%;
+  height: 100%;
+}
+.row-1{
+ flex-direction: column;
+}
+.row-2{
+ flex-direction: column;
 }
 
 }
