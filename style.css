@@ -18,7 +18,7 @@
 }
 *{
   margin: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
 }
 body{
@@ -26,84 +26,90 @@ body{
 }
 
 .banner-container{
-  max-width: 1440px;
-  height: 730px;
+  width: 68%;
+  height: 487px;
   margin: 0 auto;
   background: linear-gradient(180.00deg, rgba(0,0,0,1), rgba(0,0,0,.7), rgba(0,0,0,.7), rgba(0,0,0,.7), rgba(0,0,0,1) 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
-.name{
+.contact{
   width: 95%;
-  height: 100px;
-  /* border: 2px solid red; */
-  margin: 0 auto;
+  height: 70px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content:space-between;
-  gap: 35%;
-  
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  gap: 300px;
+}
+.name{
+  /* margin: 0 auto; */
 }
 .service{
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 46px;
-  width: 465px;
+  /* margin: 0 auto; */
+  height: 40px;
+  width: 316px;
   border-radius: 39px;
   border: 1px solid rgb(47, 47, 47);
+  gap: 4px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-right: 150px;
-  /* margin-left: 200px; */
-  }
+}
   .burger{
     display: none;
   }
 .btn-primary{
-  height:38px;
-  width: 92px;
+  height:26px;
+  width: 63px;
   border-radius: 46px;
   background-color: rgb(230, 83, 60);
   text-align: center;
   color: white;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 600;
-  padding: 8px 20px 8px 20px;
+  cursor: pointer;
   border: 0;
-  margin-left: -7px;
+ 
 
 }
 .about{
-  font-size: 1.125rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  padding: 4px;
+  /* padding: 4px; */
   color:#FFFFFF;
+  cursor: pointer;
 
 }
 .banner{
   width: 95%;
-  height: 600px;
+  height: 408px;
   display: flex;
+  flex-direction: row;
   /* border: 2px solid palegoldenrod; */
-  gap: 75px;
+  /* gap: 75px; */
   align-items: center;
-  justify-content: space-evenly;
+  margin-top: 100px;
+  justify-content: space-between;
   margin: 0 auto;
   
 }
 .banner-text{
-  height: 580px;
-  width: 520px;
+  height: 395px;
+  width: 50%;
   /* border: 2px solid white; */
-  /* display: flex; */
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  gap: 5px;
   /* margin-top: px; */
-  margin-top: 50px;
+  /* margin-top: 50px; */
   
 }
 .fitness{
@@ -111,109 +117,127 @@ body{
   font-weight: 800;
   color:rgb(230, 83, 60);
   font-style: italic;
-  margin-left: 190px;
+  /* margin-left: 190px; */
   
  }
-
+.fit-div{
+  width: 60%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
  .fit{
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.5px;
   color:rgb(139, 139, 139);
-  margin-top: 25px;
-  margin-left: 70px;
+  text-align: left;
+  /* margin-right: 60px; */
+  /* padding-left: 52px; */
+ }
+ .start{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  /* border: 3px solid wheat; */
+ 
  }
  .get-healthy{
-  font-size: 4.875rem;
+  font-size: 4.315rem;
   font-weight: 900;
   color: white;
   text-align: left;
-  margin-top: 30px;
-  line-height: 80px;
+  line-height: 60px;
   word-spacing: 6px;
-  margin-left: 70px;
-  margin-top: 110px;
- }
+  margin-left: 115px;
+  }
  #shape{
   font-family: 'miama', sans-serif;
-  font-size: 12rem;
+  font-size: 8.25rem;
   font-weight: 400;
  }
  .join-club{
-  margin-left: 60px;
+  width: 95%;
+  height: 100px;
+  /* border: 2px dashed red; */
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+ 
  }
  .club{
-  width: 224px;
-  height: 54px;
+  width: 153px;
+  height: 37px;
   border-radius: 42px;
   background-color: rgb(230, 83, 60);
   font-size: 1.125rem;
   font-weight: 400;
   text-align: center;
-  /* padding: 16px 40px 16px 40px; */
   color: white;
   border: 0px;
   margin-right: 10px;
-  margin-top: 50px;
-
+  cursor: pointer;
  }
  .app{
-  width: 224px;
-  height: 54px;
+  width: 153px;
+  height: 37px;
   border-radius: 42px;
   background-color: #181818;
   font-size: 1.125rem;
   font-weight: 400;
   text-align: center;
-  /* padding: 16px 40px 16px 40px; */
   color: white;
   box-sizing: border-box;
   border: 1px solid rgb(255, 255, 255);
-  margin-top: 50px;
-
+  cursor: pointer;
  }
  .banner-image{
-  height: 580px;
-  width: 520px;
+  height: 395px;
+  width: 50%;
   /* border: 2px solid white; */
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  /* margin-left: 50px; */
   /* margin-bottom: 10px;  */
   position: relative; 
  }
+ 
  .video-workout{
   /* diplay: flex; */
   /* flex-direction: column; */
  }
  .video{
-  width: 206px;
-  height: 96px;
+  width: 140px;
+  height: 66px;
   border-radius: 12px;
   border: 1px solid rgb(58, 58, 58);
   background-color: #FFFFFF, 10%;
   backdrop-filter: blur(6px);
   position: absolute;
-  top: 75%;
-  left: 20%;
+  top: 65%;
+  left: 30%;
   transform: translate(-50%, -50%);
   }
  .ball{
-  width: 40px;
-  height: 40px;
+  width: 22px;
+  height: 22px;
   background-color: rgb(230, 83, 60);
   border-radius: 50px 50px 50px 50px;
-  margin: 28px 15px;
+  margin: 22px 5px;
   border: 0px;
 
  }
  .visual{
-  font-size: 1.5rem;
+  font-size: 1.02rem;
   color: white;
   text-align: center;
-  margin-top: -70px;
+  margin-top: -50px;
   margin-left: 30px;
   letter-spacing: 2px;
  }
@@ -221,25 +245,25 @@ body{
   color:#FFFFFF;
   text-align: center;
   margin-left: 30px;
-  font: 1rem;
+  font: 0.87rem;
   font-weight: 400;
   color: rgb(167, 165, 162);
   letter-spacing: 1.5px;
  }
  .workout{
-  width: 206px;
-  height: 96px;
+  width: 140px;
+  height: 66px;
   border-radius: 12px;
   border: 1px solid rgb(58, 58, 58);
   background-color: #FFFFFF, 10%;
   backdrop-filter: blur(6px);
   position: absolute;
-  top: 35%;
+  top: 0%;
   left: 70%;
-  transform: translate(-20%, -50%);
+  transform: translate(70%, -190%);
  }
  .visual-2{
-  font-size: 2.5rem;
+  font-size: 1.02rem;
   font-weight: 900;
   text-align: center;
   color:rgb(255, 255, 255);
@@ -249,18 +273,18 @@ body{
 
  }
  .tutorial-2{
-  font-size: 0.82rem;
+  font-size: 0.87rem;
   font-weight: 400;
   text-align: center;
   color:rgb(186, 186, 186);
   letter-spacing: 1.5px;
-  line-height: 5px;
+  line-height: 1.3px;
  }
 
 
  .change-your-habit{
-  max-width: 1440px;
-  height: 650px;
+  width: 68%;
+  height: 487px;
   /* border: 2px solid palegreen; */
   display: flex;
   flex-direction: column;
@@ -271,7 +295,7 @@ body{
   /* margin-top: -40px; */
  }
  .habit{
-  font-size: 4rem;
+  font-size: 3.75rem;
   font-weight: 900;
   color: white;
   text-align: center;
@@ -292,11 +316,11 @@ body{
  .gallery{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   margin: 0 auto;
   margin-top: 50px;
-  gap: 60px;
+  /* gap: 60px; */
   /* margin-left: 2px; */
   /* margin: 0 auto; */
  }
@@ -336,8 +360,8 @@ body{
   padding-left: 20px;
  }
  .run-an-extra-mile{
-  max-width: 1440px;
-  height: 400px;
+  width: 68%;
+  height: 487px;
   /* border: 2px solid palegreen; */
   display: flex;
   margin: 0 auto;
@@ -347,8 +371,8 @@ body{
   /* margin-top: -190px; */
  }
  .extra-mile{
-  height: 371px;
-  width: 1060px;
+  height: 260px;
+  width: 720px;
   background-color: #222222;
   border-radius: 18px;
   margin: 185px auto;
@@ -366,7 +390,7 @@ body{
   /* padding-top: 0px; */
  }
  .run{
-  font-size: 3rem;
+  font-size: 2.04rem;
   font-weight: 900;
   color: white;
   text-align: left;
@@ -382,8 +406,8 @@ body{
   margin-bottom: 30px;
  }
  .btn-secondary{
-  width: 224px;
-  height: 54px;
+  width: 153px;
+  height: 36px;
   border-radius: 42px;
   background-color: #E6533C;
   font-size: 1.125rem;
@@ -391,25 +415,26 @@ body{
   text-align: center;
   color: white;
   border: 0px;
+  cursor: pointer;
  }
  .extra-mile-image{
-  width: 366px;
-  height: 312px;
-  /* object-fit: none; */
-  /* object-position: 66% 33%; */
-  border-radius: 18px;
-  background-size:cover;
-  background-repeat: no-repeat;
+  width: 249px;
+  height: 212px;
   background-image: linear-gradient(
     180deg, 
     rgba(19,19,24,.35) 0%, 
     rgba(19,19,24,0) 100%),
     url('./images/run.jpg');
+  object-fit: none;
+  object-position: 66% 33%;
+  border-radius: 18px;
+  background-size:cover;
+  background-repeat: no-repeat;
  }
 
  .bmi-calculator{
-  max-width: 1440px;
-  height: 800px;
+  width: 68%;
+  height: 486px;
   /* border: 2px solid purple; */
   background-color: #000000;
   margin: 0 auto;
@@ -423,21 +448,23 @@ body{
 
  .bmi-calc{
   width: 100%;
-  height: 487px;
+  height: 332px;
   background-color: #222222;
   display: flex;
   align-items:center;
-  justify-content:center;
-  margin-top: 60px;
+  justify-content:space-around;
+  margin: 0 auto;
+  /* margin-top: 10px; */
   
  }
  .calc-head{
-  font-size: 3rem;
+  font-size: 2.04rem;
   font-weight: 900;
   text-align: left;
   color: white;
+  
   /* margin-left: 00px; */
-  margin-right: 500px;
+  margin-right: 580px;
   
   /* margin-top: 80px; */
  }
@@ -454,12 +481,12 @@ body{
  }
 
  .calc-chart{
-  width: 650px;
-  height: 480px;
+  width: 50%;
+  height: 332px;
   /* border: 2px solid white; */
   display: flex;
   flex-direction: column;
-  gap: 52px;
+  gap: 20px;
  
 }
 
@@ -469,7 +496,7 @@ body{
   color: white;
   text-align: left;
   margin-left: 170px;
-  margin-top: 80px;
+  margin-top: 10px;
 }
 .table-head{
  font-size: 1rem;
@@ -497,11 +524,13 @@ td, th{
 }
 
 .your-bmi{
-  width: 650px;
-  height: 480px;
+  width: 50%;
+  height: 332px;
   /* border: 2px solid white; */
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
   
   
 }
@@ -511,8 +540,8 @@ td, th{
   color: white;
   text-align: left;
   margin: 0 auto;
-  margin-top: 75px;
-  margin-left: 20px;
+  margin-top: 10px;
+  margin-left: 115px;
   line-height: 30px;
 }
 .calculate{
@@ -534,30 +563,31 @@ td, th{
   grid-template-columns: 1fr 1fr;
 }
 input{
-  width: 282px;
-  height: 48px;
+  width: 191px;
+  height: 33px;
   border-radius: 8px;
   border: 0;
   font-size: 1rem;
   font-weight: 400;
   line-height: 22px;
-  gap: 12px;
-  margin: 10px;
-  padding-left: 15px;
+  /* gap: 0px; */
+  margin-left: 15px;
+  margin-bottom: 10px;
+  padding-left: 10px;
   background-color: rgba(255, 255, 255, 0.1);
 }
 #sex{
-  width: 299px;
-  height: 50px;
+  width: 200px;
+  height: 35px;
   border-radius: 8px;
   border: 0;
   font-size: 1rem;
   font-weight: 400;
   line-height: 22px;
-  gap: 12px;
-  margin: 10px;
-  margin-left: 10px;
-  padding-left: 15px;
+  /* gap: 7px; */
+  /* margin: 5px; */
+  margin-left: 15px;
+  padding-left: 10px;
   color: #919191;
   background-color: rgba(255, 255, 255, 0.1);
 } 
@@ -567,23 +597,23 @@ input{
 
 }
 #factor{
-  width: 623px;
-  height: 50px;
+  width: 420px;
+  height: 35px;
   border-radius: 8px;
   border: 0;
   font-size: 1rem;
   font-weight: 400;
   line-height: 22px;
-  gap: 12px;
-  margin: 10px;
+  /* gap: 12px; */
+  /* margin: 10px; */
   margin-left: 10px;  
   padding-left: 15px;
   color: #919191;
   background-color: rgba(255, 255, 255, 0.1);
 }
 .calculate-btn{
-  width: 224px;
-  height: 54px;
+  width: 153px;
+  height: 36px;
   border-radius: 42px;
   background-color: #E6533C;
   font-size: 1.125rem;
@@ -592,12 +622,13 @@ input{
   color: white;
   border: 0px;
   margin-left: 10px;
-  margin-top: 10px;
+  margin-top: 40px;
+  cursor: pointer;
 }
 
 .meet-our-team{
-  max-width: 1440px;
-  height: 815px;
+  width: 68%;
+  height: 555px;
   /* border: 2px solid purple; */
   margin: 0 auto;
   background-color: #000000;
@@ -796,8 +827,8 @@ text-align: left;
   transform: translate(-50%, -50%);
 }
 .fitness-end{
-  max-width: 1440px;
-  height: 489px;
+  width: 68%;
+  height: 333px;
   /* border: 2px solid purple; */
   background-color: #222222;
   margin: 0 auto;
