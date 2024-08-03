@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./media.css">
   <link rel="stylesheet" href="./media_quary_medum.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
  </head>
 <body class="inter-fonts">
   <header>
@@ -163,11 +164,11 @@
               <h2 class="calculate-bmi">Calculate Your BMI</h2>
               <p class="calculate">We believe fitness should be accessible to everyone, everywhere, regardless of<br> income or access to a gym. </p>
               <div class="input-your-data">
-                <input type="text" name="" id="" placeholder="Height / cm">
-                <input type="text" name="" id="" placeholder="Weight / Kg">
+                <input id="field"type="text" name="" id="" placeholder="Height / cm">
+                <input id="field"type="text" name="" id="" placeholder="Weight / Kg">
              </div>
              <div class="input-field">
-                <input type="text" name="" id="" placeholder="Age">
+                <input id="field" type="text" name="" id="" placeholder="Age">
                 <select id="sex" name="" id=""><option>Sex</option></select>
              </div>
              <div class="activity-factor">
@@ -181,8 +182,8 @@
         </section>
            <!-- BMI calculator end -->
            <!-- Meet our team start -->
-        <section class="meet-our-team display">
-          <h2>Meet Our Team</h2>
+        <section class="meet-our-team">
+          <h2 class="team-one">Meet Our Team</h2>
           <p class="p-graph">We believe fitness should be accessible to everyone, everywhere, regardless of<br> income or access to a gym.</p>
           <div class="our-team">
            
@@ -225,9 +226,50 @@
           </div>
         </section>
         <!-- Meet our team end -->
-  </main>
+         <!-- My own pages start -->
+          <section>
+            <div class="my-own-pages roboto-fonts">
+              <div class="crazy-deals poppins-fonts"><h2>Crazy Deals !!!</h2></div>
+              <div class="own-images">
+                <div class="logo">
+                  <img width="72px" height="72px" src="./images/discount_6.png" alt="">
+                  </div>
+                 <div>
+               <h2 class="lobster-regular"><marquee behavior="" direction=""> Upto 70% off for new member & 50% off for irreguler member. So be active & don't waste your time..... <span id="white">Signup now !</span> </marquee></h2>
+              </div>
+                       
+              </div>
+              </div>
+              <!-- login form starts -->
+          </section>
+          <section class="login-form">
+            <div class="wrapper">
+              <form action="">
+                <h1>Login</h1>
+                <div class="input-box">
+                  <input type="text" placeholder="Username" required>
+                  <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                  <input type="password" placeholder="Password" required>
+                  <i class='bx bxs-lock-alt' ></i>
+                </div>
+                <div class="remember-forgot">
+                  <label><input type="checkbox">Remember Me</label>
+                  <a href="#">Forgot Password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="register-link">
+                  <p>Dont have an account? <a href="#">Register</a></p>
+                </div>
+              </form>
+            </div>
+          </section>
+    </main>
+         
+       
   <!-- footer section start -->
-  <footer class="fitness-end display">
+  <footer class="fitness-end">
     <div class="conclution">
       <div class="conclution-head">
         <h2 class="fitness-final">Fitness</h2>
