@@ -1,25 +1,24 @@
 @media screen and (min-width: 577px) and (max-width: 992px){
    .banner-container{
     width: 100%;
-    height: 1403px;
+    height: 100%;
     margin: 0 auto;
     /* background-color:#1B1B1B; */
     display: flex;
-
     flex-direction: column;
     justify-content: center;
     
-    }      
-    .name{
-      width: 95%;
-      height: 100px;
-      /* border: 2px solid wheat; */
+    }   
+    .contact{
+      justify-content: space-evenly;
+      align-items: center;
       margin: 0 auto;
-      justify-content:space-between;
-      margin: 0 auto;  
-      /* justify-content: center; */
+    }   
+    .name{
+      width: 50%;
+      height: 100px;
       align-items: center; 
-      margin-bottom: 350px; 
+      /* margin-top: 0px;  */
                
     }  
     .burger{
@@ -39,33 +38,46 @@
     .fitness{
       margin-right: 80px;
       margin-left: 10px;
+      margin-top: 35px;
         
       }  
      .banner{
-      flex-direction: column;
+      flex-direction: row;
       margin: 0 auto;  
       justify-content: center;
       align-items: center;  
-      margin-bottom: 250px;                                                     */
+      /* margin-bottom: 50px;                                                     */ */
      }
      .banner-text{
       text-align: left;
       margin-right: 200px;
+      margin: 0 auto;
      }
      
     .banner-image{
-      margin-bottom:100px; 
-      margin-right: 20px; 
+      width: 100%;
+      height: 100%;
+      margin-bottom:10px; 
+      padding-left: 50px; 
+      margin: 0 auto;
+      justify-content: center;
+      margin-top: 5px;
+      margin-bottom: 30px;
 
     }
   .change-your-habit{
     height: 100%;
+    width: 100%;
     background-color: #000000;
 
   }
   .gallery{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+.run-an-extra-mile{
+  width: 100%;
+  padding: 20px 0px 20px 0px;
 }
 .extra-mile{
   width: 610px;
@@ -83,6 +95,7 @@
 
 .bmi-calculator{
   height: 75rem;
+  width: 100%;
 }
 .calc-head{
   font-size: 3rem;

@@ -46,9 +46,10 @@
 }
 *{
   margin: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
 }
+
 body{
   border: 2px dashed greenyellow;
 }
@@ -66,7 +67,7 @@ body{
   width: 95%;
   height: 70px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   /* border: 2px solid red; */
@@ -149,11 +150,12 @@ body{
   
  }
 .fit-div{
-  width: 60%;
+  width: 90%;
   height: auto;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   margin: 0 auto;
+  margin-right: 100px;
 }
  .fit{
   font-size: 1rem;
@@ -180,7 +182,7 @@ body{
   text-align: left;
   line-height: 60px;
   word-spacing: 6px;
-  margin-left: 115px;
+  /* margin-left: 115px; */
   }
  #shape{
   font-family: 'miama', sans-serif;
@@ -257,7 +259,7 @@ body{
   height: 22px;
   background-color: rgb(230, 83, 60);
   border-radius: 50px 50px 50px 50px;
-  margin: 22px 5px;
+  margin: 22px 3px;
   border: 0px;
 
  }
@@ -272,11 +274,11 @@ body{
  .tutorial{
   color:#FFFFFF;
   text-align: center;
-  margin-left: 30px;
-  font: 0.87rem;
-  font-weight: 400;
+  margin-left: 10px;
+  font: 0.875rem;
+  font-weight: 300;
   color: rgb(167, 165, 162);
-  letter-spacing: 1.5px;
+  /* letter-spacing: 1.5px; */
  }
  .workout{
   width: 140px;
@@ -296,7 +298,7 @@ body{
   text-align: center;
   color:rgb(255, 255, 255);
   letter-spacing: 1.5px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 15px;
 
  }
@@ -305,7 +307,7 @@ body{
   font-weight: 400;
   text-align: center;
   color:rgb(186, 186, 186);
-  letter-spacing: 1.5px;
+  /* letter-spacing: 1.5px; */
   line-height: 1.3px;
  }
 
@@ -502,7 +504,7 @@ body{
   letter-spacing: 0.3px;
   color: #808080;
   text-align: left;
-  margin-right: 290px;
+  margin-right: 195px;
   /* margin-left: 300px; */
   line-height: 24px;
   padding-bottom:  50px;
@@ -569,27 +571,53 @@ td, th{
   text-align: left;
   margin: 0 auto;
   margin-top: 10px;
-  margin-left: 115px;
+  margin-left: 100px;
   line-height: 30px;
 }
 .calculate{
-  font-size: 0.875rem;
+  font-size: 0.675rem;
   font-weight: 400;
   color: #919191;
   text-align: left;
   margin: 15px;
   letter-spacing: 0.3px;
   line-height: 18px;
-  margin-left: 20px;
+  margin-right: 100px;
 }
 .input-your-data, .input-field{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+
 }
-.activity-factor{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.input-your-data{
+  margin-bottom: 15px;
 }
+.input-field{
+ justify-content: space-evenly; 
+ margin-bottom: 15px;
+ 
+ 
+}
+.age-one{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+margin-right: 0px;
+/* margin-bottom: 15px; */
+}
+.sex-one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
 #field{
   width: 191px;
   height: 33px;
@@ -613,20 +641,25 @@ td, th{
   font-weight: 400;
   line-height: 22px;
   /* gap: 7px; */
-  /* margin: 5px; */
-  margin-left: 15px;
-  padding-left: 10px;
+  margin: 0px;
+  /* margin-left: 15px; */
+  /* padding-left: 10px; */
   color: #919191;
   background-color: rgba(255, 255, 255, 0.1);
 } 
 .activity-factor{
+  width: 80%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  -bottom: 160px;
 
 }
 #factor{
-  width: 420px;
-  height: 35px;
+  width: 445px;
+  height: 38px;
   border-radius: 8px;
   border: 0;
   font-size: 1rem;
@@ -635,7 +668,7 @@ td, th{
   /* gap: 12px; */
   /* margin: 10px; */
   margin-left: 10px;  
-  padding-left: 15px;
+  padding-left: 5px;
   color: #919191;
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -649,8 +682,9 @@ td, th{
   text-align: center;
   color: white;
   border: 0px;
-  margin-left: 10px;
-  margin-top: 40px;
+  margin-right: 280px;
+  /* margin-left: 10px; */
+  margin-top: 10px;
   cursor: pointer;
 }
 
@@ -680,7 +714,7 @@ td, th{
 }
 .our-team{
   height: 411px;
-  width: 721px;
+  width: 751px;
   background-color: #222222;
   border-radius: 18px;
   display: flex;
@@ -696,9 +730,9 @@ td, th{
 
 
 .row-1, .row-2{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   gap: 15px;
@@ -708,17 +742,17 @@ td, th{
 
 .trainer-name{
 color: white;
-font-size: 1.02rem;
+font-size: .9rem;
 text-align: left;
 }
 .trainer-name-one{
 color: white;
-font-size: 1.02rem;
+font-size: .9rem;
 text-align: left;
 }
 .trainer-name-two{
   color: white;
-  font-size: 1.02rem;
+  font-size: .9rem;
   text-align: left;
 }
 .trainer-designation{
@@ -818,29 +852,27 @@ text-align: left;
 .trainer-name{
   position: absolute;
   top: 75%;
-  left: 20%;
+  left: 25%;
   transform: translate(-50%, -50%);
 
 }
 .trainer-designation{
   position: absolute;
   top: 85%;
-  left: 12%;
+  left: 15%;
   transform: translate(-50%, -50%);
 }
-
-
 
 .trainer-name-one{
   position: absolute;
   top: 75%;
-  left: 30%;
+  left: 35%;
   transform: translate(-45%, -50%);
 }
 .trainer-designation-one{
   position: absolute;
   top: 85%;
-  left: 12%;
+  left: 15%;
   transform: translate(-50%, -50%);
 }
 
@@ -848,13 +880,13 @@ text-align: left;
 .trainer-name-two{
   position: absolute;
   top: 75%;
-  left: 21%;
+  left: 27%;
   transform: translate(-45%, -50%);
 }
 .trainer-designation-two{
   position: absolute;
   top: 85%;
-  left: 11%;
+  left: 15%;
   transform: translate(-50%, -50%);
 }
 
@@ -869,7 +901,7 @@ text-align: left;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 
 }
 .own-images{
@@ -877,7 +909,7 @@ text-align: left;
   height: 75px;
   /* border: 2px dashed wheat; */
   display: flex;
-  /* flex-direction: row-reverse; */
+  flex-direction: row-reverse;
   justify-content: center;
   margin: 0 auto;
   align-items: center;
@@ -898,7 +930,7 @@ text-align: left;
 .logo{
   width: 15%;
   height: 75px;
-  /* border: 2px solid rebeccapurple; */
+  border: 2px solid rebeccapurple;
   background-color: none;
   border: 0px;
   align-items: center;
@@ -937,7 +969,7 @@ marquee{
   margin: 0 auto;
 }
 .wrapper{
-  width: 290px;
+  width: 310px;
   background: transparent;
   border: 2px solid rgba(255, 255, 255, .2);
   backdrop-filter: blur(9px);
@@ -1014,13 +1046,13 @@ marquee{
 .wrapper .register-link{
   font-size: 1.2rem;
   text-align: center;
-  margin: 20px 0 15px;
+  margin: 10px 0 10px;
 
 }
 .register-link p a{
   color: #fff;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 300;
 }
 .register-link p a:hover{
   text-decoration: underline;
